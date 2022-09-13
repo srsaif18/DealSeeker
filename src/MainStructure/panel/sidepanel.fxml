@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="500.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainStructure.panel.SidePanelController">
+   <children>
+      <ImageView fitHeight="120.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../main/Resources/SplashBackground.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="home" alignment="CENTER" prefHeight="35.0" prefWidth="180.0" ripplerFill="#0dff81" style="-fx-background-color: black;" text="Home" textFill="#0dff81">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Blend />
+               </effect>
+               <image>
+                  <Image url="@../main/Resources/home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="search" alignment="CENTER" onAction="#loadSearch" prefHeight="35.0" prefWidth="180.0" ripplerFill="#0fe2ff" style="-fx-background-color: black;" text="Search" textFill="#0fe2ff">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Blend />
+               </effect>
+               <image>
+                  <Image url="@../main/Resources/search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="preferences" alignment="CENTER" onAction="#loadPreferences" prefHeight="35.0" prefWidth="180.0" ripplerFill="#ffb400" style="-fx-background-color: black;" text="Preferences" textFill="#ffb400">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Blend />
+               </effect>
+               <image>
+                  <Image url="@../main/Resources/preferences.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="user" alignment="CENTER" onAction="#loadUser" prefHeight="35.0" prefWidth="180.0" ripplerFill="#0f73ff" style="-fx-background-color: black;" text="User" textFill="#0f73ff">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Blend />
+               </effect>
+               <image>
+                  <Image url="@../main/Resources/user.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </JFXButton>
+      <AnchorPane prefHeight="242.0" prefWidth="180.0">
+         <children>
+            <JFXButton fx:id="exit" alignment="TOP_CENTER" buttonType="RAISED" layoutX="73.0" layoutY="203.0" onAction="#exit" ripplerFill="#ff0909" style="-fx-background-color: white;" text="Exit" textFill="#ff0909">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <Blend />
+                     </effect>
+                     <image>
+                        <Image url="@../main/Resources/exit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+               <effect>
+                  <Glow level="1.0" />
+               </effect></JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

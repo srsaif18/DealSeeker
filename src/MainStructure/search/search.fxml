@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" style="-fx-background-color: #b6d1de;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainStructure.search.Controller">
+   <children>
+      <Pane layoutX="25.0" layoutY="25.0" prefHeight="430.0" prefWidth="430.0" style="-fx-background-color: #0B2A53;">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect>
+         <children>
+            <Text fill="#b6d1de" layoutX="64.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Looking For Something???">
+               <font>
+                  <Font name="Tw Cen MT" size="30.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Text>
+            <Text fill="#b6d1de" layoutX="64.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search here">
+               <font>
+                  <Font name="Tw Cen MT" size="30.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Text>
+            <JFXTextField fx:id="searchInput" focusColor="WHITE" labelFloat="true" layoutX="217.0" layoutY="178.0" prefHeight="25.0" prefWidth="143.0" promptText="(type here)" unFocusColor="RED">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font></JFXTextField>
+            <JFXButton fx:id="goSearch" buttonType="RAISED" layoutX="145.0" layoutY="242.0" onAction="#setGoSearch" prefHeight="71.0" prefWidth="143.0" style="-fx-background-color: #b6d1de;" text="GO!!!" textFill="#0b2a53">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="40.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ProjectOOP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjectOOP_jar</output-path>
+    <root id="archive" name="ProjectOOP.jar">
+      <element id="module-output" name="ProjectOOP" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Resources/ExtraLibraries/jfoenix-8.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Resources/ExtraLibraries/fontawesomefx-8.9.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

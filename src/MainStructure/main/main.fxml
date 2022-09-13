@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainStructure.main.MainController">
+    <children>
+      <ImageView fitHeight="500.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resources/HomeBackground.jpg" />
+         </image></ImageView>
+      <WebView fx:id="news" layoutX="10.0" layoutY="40.0" opacity="0.9" prefHeight="450.0" prefWidth="730.0" />
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="200.0" prefHeight="500.0" prefWidth="108.0" />
+      <JFXHamburger fx:id="hamburger" layoutX="706.0" layoutY="14.0" styleClass="jfx-hamburger" stylesheets="@styles.css">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></JFXHamburger>
+    </children>
+</AnchorPane>

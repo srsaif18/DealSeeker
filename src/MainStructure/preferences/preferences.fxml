@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="480.0" style="-fx-background-color: #555A5F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="15.0" layoutY="15.0" prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #F2BF80;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Text fill="#555a5f" layoutX="131.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preferences">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="40.0" />
+               </font>
+               <effect>
+                  <Glow level="0.4" />
+               </effect>
+            </Text>
+            <VBox layoutX="92.0" layoutY="81.0" prefHeight="342.0" prefWidth="267.0" spacing="10.0">
+               <children>
+                  <JFXButton fx:id="goSearch" buttonType="RAISED" prefHeight="46.0" prefWidth="275.0" style="-fx-background-color: #555A5F;" text="Notifications" textFill="#f2bf80">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="25.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/notifications.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="goSearch3" buttonType="RAISED" prefHeight="46.0" prefWidth="289.0" style="-fx-background-color: #555A5F;" text="Appearence" textFill="#f2bf80">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="25.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/appearence.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="goSearch2" buttonType="RAISED" prefHeight="46.0" prefWidth="282.0" style="-fx-background-color: #555A5F;" text="Privacy &amp; Security" textFill="#f2bf80">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="25.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/privacy.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="goSearch1" buttonType="RAISED" prefHeight="46.0" prefWidth="294.0" style="-fx-background-color: #555A5F;" text="Help &amp; Support" textFill="#f2bf80">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="25.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/help.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="goSearch4" buttonType="RAISED" prefHeight="46.0" prefWidth="286.0" style="-fx-background-color: #555A5F;" text="About" textFill="#f2bf80">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="25.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/about.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="goSearch5" buttonType="RAISED" prefHeight="46.0" prefWidth="283.0" style="-fx-background-color: #555A5F;" text="Log Out" textFill="#ff3a3a">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="25.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons/logout.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" />
+               </effect>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
