@@ -58,9 +58,9 @@ cd src\MainStructure
 
 [<img align="left" alt="nixrajput | LinkedIn" width="24px" src="https://raw.githubusercontent.com/nixrajput/nixlab-files/master/images/icons/linkedin-in-brands.svg" />][linkedin]
 
-[github]: https://github.com/FouziaFaria
-[website]: https://fouzia.bukharealsaif.com/
-[facebook]: https://www.facebook.com/faria.alam.522
-[twitter]: https://twitter.com/FouziaFariaTura
-[instagram]: https://www.instagram.com/pandaria_228/
-[linkedin]: https://www.linkedin.com/in/fouziafaria/
+[github]: https://github.com/bukharealsaif
+[website]: https://bukharealsaif.com/
+[facebook]: https://www.facebook.com/bukharealsaif
+[twitter]: https://twitter.com/bukharealsaif
+[instagram]: https://www.instagram.com/bukharealsaif/
+[linkedin]: https://www.linkedin.com/in/bukharealsaif/
